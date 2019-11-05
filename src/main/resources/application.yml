@@ -1,0 +1,33 @@
+#logging.pattern.console=%d - %msg%n
+#logging.path=C:/log
+#logging.file=C:/log/sell.log
+#logging.level.com.imooc.LoggerTest=debug
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.1.33/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+server:
+  context-path: /sell
+
+wechat:
+#####world哥
+#  mpAppId: wxf8ba6da6782b267a
+#  mpAppSecret: 4ff7ef33547071e150a39ae1c2560440
+
+#####廖师兄
+#  mpAppId: wxd898fcb01713c658
+#  mpAppSecret: 29d8a650db31472aa87800e3b0d739f2
+
+#####测试号
+  mpAppId: wx1219cb2b43f043e2
+  mpAppSecret: 05fa186f9d20a3f8b9b58408307806f7
+  openId: o3hySwfitnZnhtDMdlOzIwSc5TjU
+  mchId:
+  mchKey:
+  keyPath:

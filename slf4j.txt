@@ -1,0 +1,15 @@
+2019-10-24 22:07:54.268  INFO 5208 --- [main] com.imooc.LoggerTest                     : Starting LoggerTest on PC-20181129MQUY with PID 5208 (started by Administrator in D:\SoftWare\IntelliJ IDEA 2017.1.4\Projects\sell)
+2019-10-24 22:07:54.269  INFO 5208 --- [main] com.imooc.LoggerTest                     : No active profile set, falling back to default profiles: default
+2019-10-24 22:07:54.299  INFO 5208 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2002fc1d: startup date [Thu Oct 24 22:07:54 CST 2019]; root of context hierarchy
+2019-10-24 22:07:55.390  INFO 5208 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2002fc1d: startup date [Thu Oct 24 22:07:54 CST 2019]; root of context hierarchy
+2019-10-24 22:07:55.434  INFO 5208 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-24 22:07:55.435  INFO 5208 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-10-24 22:07:55.454  INFO 5208 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-24 22:07:55.454  INFO 5208 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-24 22:07:55.478  INFO 5208 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-24 22:07:55.572  INFO 5208 --- [main] com.imooc.LoggerTest                     : Started LoggerTest in 1.559 seconds (JVM running for 2.119)
+2019-10-24 22:07:55.601  INFO 5208 --- [main] com.imooc.LoggerTest                     : info....
+2019-10-24 22:07:55.604  INFO 5208 --- [main] com.imooc.LoggerTest                     : slf4j....info
+2019-10-24 22:07:55.605 ERROR 5208 --- [main] com.imooc.LoggerTest                     : slf4j....error
+2019-10-24 22:07:55.606  INFO 5208 --- [main] com.imooc.LoggerTest                     : name:imooc,password:123456
+2019-10-24 22:07:55.611  INFO 5208 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@2002fc1d: startup date [Thu Oct 24 22:07:54 CST 2019]; root of context hierarchy
